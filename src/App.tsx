@@ -1,9 +1,15 @@
+import VerseDisplay from "./components/VerseDisplay/VerseDisplay"
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
-    <h1 className='text-3xl font-bold underline text-center text-blue-500'>
-      Hello World
-    </h1>
+    <div className="min-h-screen bg-slate-900 text-slate-100 flex flex-col justify-center items-center p-4">
+      <main className="w-full max-w-3xl">
+        <VerseDisplay />
+      </main>
+
+      <Footer />
+    </div>
   )
 }
 
